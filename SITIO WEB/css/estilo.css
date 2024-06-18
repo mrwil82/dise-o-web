@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  background: radial-gradient(rgba(63, 130, 185, 0.5),rgba(228, 221, 221, 0.5));
+   
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+
+
+}
+#menu {
+  background: radial-gradient(rgb(188, 188, 207), white);
+}
+
+#menu li > a {
+  
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+
+
+}
+#menu fom > button{
+   
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.carousel-inner {
+  max-height: 50rem;
+}
+/*mapa*/
+
+.mapa {
+ background-image: url(../imagenes/mapa.png);
+ 
+ width: 100%;
+ height: 500px;
+}
+#local {
+  background: #f3f3f3f3;
+  padding-bottom:300px ;
+  display: flex ;
+  justify-content: center;
+
+}
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+
+}
+#numeros-local div {
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;  
+}
+#numeros-local div:not(:first-child) {
+  padding-left:20px ;
+}
+#numeros-local div p {
+  margin: 0;
+}
+
+#bg-contacto {
+  position: relative;
+  top: -130px;
+}
+#seccion-contacto {
+  background-color:#000b76 ;
+  min-height: 500px;
+  position: relative;
+}
+
+#contenedor-formulario {
+  position: absolute;
+    top :30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa ;
+    border-radius: 10px;
+    max-width: 300px;
+
+}
+#titulo-formulario {
+  color: #3f3f3f;
+}
+
+footer {
+  background-color: black;
+ 
+  min-height: 20px; 
+}
+
+footer p {
+  color: white;
+  text-align:center;
+  font-size: 18px;
+  padding-top: 60px;
+}
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: aliceblue;
+
+}
+  
+  
+  
+
+ 
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90% !important;
+  }
+  #equipo p {
+    display: none;
+
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+
+  #bg-contacto {    
+    top: -110px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+}
+@media (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top:30 px; ;
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top:50 px;
+
+
+  }
+
+}
+
+  

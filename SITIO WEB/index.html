@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <title>web mia</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="container-fluid bg-success d-flex justify-content-end">
+        <p class="text-light mb-0 p-7">@ estoy aprendiendo html</p>
+      </header>
+
+      <!-- ========== Encabezado ========== -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#intro">
+            <span class="text-primary fs-1 fw-bold">MI WEB</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">EQUIPO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">CONTACTO</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="email"
+                placeholder="CORREO ELECTRONICO"
+                aria-label="email"
+              />
+              <button class="btn btn-outline-primary" type="button">
+                SUSCRIBETE
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ========== CARRUSEL DE IMAGENES========== -->
+
+      <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" data-bs-interval="2000">
+          <div class="carousel-item active">
+            <img src="imagenes/IMG1.jpg" class="d-block w-100" alt="IMG1" />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/IMG2.jpg" class="d-block w-100" alt="IMG2" />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/IMG3.jpg" class="d-block w-100" alt="IMG3" />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/IMG4.jpg" class="d-block w-100" alt="IMG4" />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagenes/IMG5.jpg" class="d-block w-100" alt="IMG5" />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ========== INTRODUCCION =========== -->
+
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          <span class="text-primary"> Marketing digital </span>
+        </h1>
+
+        <p class="p-3 ps-4">
+          <span class="text-primary">MI WEB</span>Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quasi, ullam? Omnis quaerat repudiandae,
+          qui exercitationem incidunt dolorum.
+        </p>
+      </section>
+
+      <!-- ========== SERVICIOS =========== -->
+
+      <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap ">
+            <img
+              src="imagenes/desarrollo 1.jpg"
+              alt="desarrollo"
+              width="180"
+              height="160"
+            />
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">DESARROLLO</h3>
+              <p class="px-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                veniam, expedita vero modi fugiat voluptate distinctio quae
+                obcaecati, laboriosam consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img
+              src="imagenes/desarrollo.jpg"
+              alt="desarrollo"
+              width="180"
+              height="160"
+            />
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">DESARROLLO</h3>
+              <p class="px-4">
+                Lorem ipsum d> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Culpa veniam, expedita vero modi fugiat
+                voluptate distinctio quae obcaecati.
+              </p>
+            </div>
+          </div>
+        </div>     
+        
+        <div class="row w-75 mx-auto servicio-fila">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap ">
+            <img
+              src="imagenes/desarrollo 1.jpg"
+              alt="desarrollo"
+              width="180"
+              height="160"
+            />
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">DESARROLLO</h3>
+              <p class="px-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                veniam, expedita vero modi fugiat voluptate distinctio quae
+                obcaecati, laboriosam consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img
+              src="imagenes/desarrollo.jpg"
+              alt="desarrollo"
+              width="180"
+              height="160"
+            />
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">DESARROLLO</h3>
+              <p class="px-4">
+                Lorem ipsum d> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Culpa veniam, expedita vero modi fugiat
+                voluptate distinctio quae obcaecati.
+              </p>
+            </div>
+          </div>
+        </div>       
+        
+      </section>
+
+      <!-- ========== ACERCA DE NOSOTROS =========== -->
+
+
+      <section class="container-fluid">
+        <div class=" w-75 m-auto text-center " id="equipo"> 
+
+          <h1 class="mb-5 fs-2"> Un equipo pequeño con <span class="text-primary" > Resultados grandes</span></h1>
+
+          <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, eveniet? Maiores possimus perspiciatis, dolorum mollitia tempora architecto dolore neque assumenda consequatur eos culpa, itaque voluptas nostrum sequi nulla consequuntur laboriosam!</p>
+        </div>
+        <div class="mt-5 text-center ">
+          <img class="img-fluid" src="./imagenes/equipo.jpg" alt="imagen">
+        </div>
+        <hr>
+
+        <p class="text-center font-weight-bold">*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★**:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*:;;;;;:*★*</p>
+        <hr>
+        <div id="local" class="border-top border-2">
+          <div class="mapa"></div>
+
+          <div class="wrapper">
+
+            <h2>Ubicacion en soacha colombia</h2>
+            <h2 class="text-primary mb-4" id="typewriter"></h2>
+
+            <p class="fs-5 text-body ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse deleniti veniam odit deserunt eos maxime repellendus ut quis minus alias molestiae aspernatur illum voluptatem repudiandae quibusdam ducimus aliquam, perferendis architecto.</p>
+
+            <section class="d-flex" id="numeros-local">
+
+              <div>
+                <p class="text-primary fs-5"> 248 </p>
+                <p> Dias de sol </p>                
+              </div>
+              <div>
+                <p class="text-primary fs-5" > 100 % </p>
+                <p>Aprobado</p>                
+              </div>
+              <div>
+                <p class="text-primary fs-5" > 24 °C </p>
+                <p>Temperatura</p>                
+              </div>
+
+            </section>
+
+          </div>
+
+        </div>
+    </div>
+
+    <!-- ========== fondo del formulario  =========== -->
+
+    <section id="seccion-contacto" class="boder-bottom border-secondary border-3">
+      <div id="bg-contacto">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000b76" fill-opacity="1" d="M0,320L48,298.7C96,277,192,235,288,197.3C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,250.7C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </div>
+
+      <!-- ========== formulario  =========== -->
+      
+      <div class="container-fluid" id="contenedor-formulario">
+        <div id ="titulo-formulario" class="text-center mb-4 ">
+
+          <div><img src="imagenes/form.jpg" alt="contacto" class="img-fluid"></div>
+
+          <h2>CONTACTOS</h2>
+
+          <P class="fs-5" ipsum dolor sit amet, consectetur adipisicing elit. Iure perferendis excepturi.</P>
+
+        </div>
+        <form action="">
+
+          <div class="mb-3">
+            <label for="email" class="form-label">CORREO</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="text" class="form-label">NOMBRE</label>
+            <input type="text" class="form-control" id="nombre" placeholder="wilson ortiz" required>
+          </div>
+          <div class="mb-3">
+            <label for="tel" class="form-label">TELEFONO</label>
+            <input type="email" class="form-control" id="tel" placeholder="0000000000" required>
+          </div>
+          
+          <div class="mb-3">
+            <label for="text-area" class="form-label">CUADRO DE TEXTO</label> 
+
+            <textarea class="form-control" id="area-texto" rows="3" placeholder="Escriba TU MENSAJE aqui"></textarea>
+
+          </div class="mb-3">
+          <a name="" id="" class="btn btn-primary w-100" href="#" role="button" >ENVIAR</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== PIE DE LA PAGINA   =========== -->
+
+    <footer class="w-100 d-flex aling-items-center justify-content-end flex-wrap">
+      <p class="fs-5 px-3 pt-3 "> mi web &copy; Todos los derechos reservados</p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      
+
+      </div>
+
+
+    </footer>
+
+
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="js/min.js"></script>
+   
+
+    
+  </body>
+</html>
